@@ -4,5 +4,9 @@ services:
 
   php:
     environment:
-      DH_URL: "cosmomed.org"
+      DH_URL: "cosmomed.localhost"
       DH_ENV: "live"
+
+  nginx:
+    ports:
+      - "80:8000"

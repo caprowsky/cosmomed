@@ -3,7 +3,7 @@ Contributors: spicethemes
 Tags: widget, admin, widgets
 Requires at least: 3.3+
 Tested up to: 5.2.3
-Stable tag: 1.1
+Stable tag: 1.1.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -148,3 +148,9 @@ This plugin create repeater controls in the customizer settings allowing you to 
 
 = 1.1 =
 1. Added Honeypress theme functionality.
+
+= 1.1.1 =
+1. Minor Update.
+
+= 1.1.2 =
+1. Added SpicePress child theme name.

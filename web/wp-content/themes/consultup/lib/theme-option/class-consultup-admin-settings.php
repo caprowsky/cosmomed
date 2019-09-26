@@ -382,25 +382,25 @@ if ( ! class_exists( 'consultup_Admin_Settings' ) ){
 					'colors'       => array(
 						'title'     => __( 'Set Colors', 'consultup' ),
 						'dashicon'  => 'dashicons-admin-customizer',
-						'quick_url' => admin_url( 'customize.php?autofocus[control]=custom_color' ),
+						'quick_url' => admin_url( 'customize.php?autofocus[control]=background_color' ),
 					),
 					
 					'sidebars'     => array(
 						'title'     => __( 'Sidebar Options', 'consultup' ),
 						'dashicon'  => 'dashicons-align-left',
-						'quick_url' => admin_url( 'customize.php?autofocus[control]=consultup-section-sidebar-group' ),
+						'quick_url' => admin_url( 'customize.php?autofocus[section]=sidebars_widgets-footer_widget_area' ),
 					),
 					
 					'social'     => array(
 						'title'     => __( 'Social Icon', 'consultup' ),
 						'dashicon'  => 'dashicons-groups',
-						'quick_url' => admin_url( 'customize.php?autofocus[section]=consultup-social-icon' ),
+						'quick_url' => admin_url( 'customize.php?autofocus[control]=header_social_icon_enable' ),
 					),
 					
 					'site-button'     => array(
 						'title'     => __( 'Site Button', 'consultup' ),
 						'dashicon'  => 'dashicons-admin-post',
-						'quick_url' => admin_url( 'customize.php?autofocus[section]=consultup-site-button' ),
+						'quick_url' => admin_url( 'customize.php?autofocus[control]=site_icon' ),
 					),
 				)
 			);

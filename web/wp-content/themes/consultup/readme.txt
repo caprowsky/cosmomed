@@ -3,7 +3,7 @@ Contributors: themeansar
 Tags: three-columns, left-sidebar, right-sidebar, custom-logo, featured-images, threaded-comments, blog, e-commerce, news
 Requires at least: 4.0.5
 Tested up to:5.1
-Stable tag: 1.5.3
+Stable tag: 1.5.4
 Requires PHP: 5.2.4
 
 == Theme License & Copyright ==
@@ -106,3 +106,6 @@ License for images:
 
 --- Version 1.5.3 ----
 1. Fixed escaping issue.
+
+--- Version 1.5.4 ----
+1. Fixed styling issue.

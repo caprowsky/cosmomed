@@ -3,7 +3,7 @@
 Plugin Name: SpiceBox
 Plugin URI:
 Description: Enhances SpiceThemes with extra functionality.
-Version: 1.1
+Version: 1.1.2
 Author: Spicethemes
 Author URI: https://github.com
 Text Domain: spicebox
@@ -13,7 +13,7 @@ define( 'SPICEB_PLUGIN_DIR', plugin_dir_path( __FILE__ ) );
 error_reporting(0);
 function spiceb_activate() {
 	$theme = wp_get_theme(); // gets the current theme
-	if ( 'SpicePress' == $theme->name || 'Rockers' == $theme->name || 'Content' == $theme->name  || 'Certify' == $theme->name || 'Stacy' == $theme->name || 'SpicePress Child Theme' == $theme->name){
+	if ( 'SpicePress' == $theme->name || 'Rockers' == $theme->name || 'Content' == $theme->name  || 'Certify' == $theme->name || 'Stacy' == $theme->name || 'SpicePress Child Theme' == $theme->name || 'SpicePress Child' == $theme->name){
 		require_once('inc/spicepress/features/feature-slider-section.php');
 		require_once('inc/spicepress/features/feature-service-section.php');
 		require_once('inc/spicepress/features/feature-portfolio-section.php');
@@ -26,7 +26,7 @@ function spiceb_activate() {
 		
 	}
 
-	if ( 'Honeypress' == $theme->name ){
+	if ( 'HoneyPress' == $theme->name ){
 		require_once('inc/honeypress/features/feature-slider-section.php');
 		require_once('inc/honeypress/features/feature-service-section.php');
 		require_once('inc/honeypress/features/feature-testimonial-section.php');
@@ -134,7 +134,7 @@ add_action( 'init', 'spiceb_activate' );
 
 
 $theme = wp_get_theme();
-if ( 'SpicePress' == $theme->name || 'Rockers' == $theme->name || 'Content' == $theme->name || 'Certify' == $theme->name || 'Stacy' == $theme->name || 'SpicePress Child Theme' == $theme->name || 'Chilly' == $theme->name || 'SpiceBlue' == $theme->name){
+if ( 'SpicePress' == $theme->name || 'Rockers' == $theme->name || 'Content' == $theme->name || 'Certify' == $theme->name || 'Stacy' == $theme->name || 'SpicePress Child Theme' == $theme->name || 'Chilly' == $theme->name || 'SpiceBlue' == $theme->name || 'SpicePress Child' == $theme->name){
 		
 	
 register_activation_hook( __FILE__, 'spiceb_install_function');
@@ -157,7 +157,7 @@ $item_details_page = get_option('item_details_page');
 
 
 //Honeypress
-if ( 'Honeypress' == $theme->name ){	
+if ( 'HoneyPress' == $theme->name ){	
 register_activation_hook( __FILE__, 'spiceb_install_function');
 function spiceb_install_function()
 {	
@@ -227,7 +227,7 @@ endif;
 
 
 
-if ('SpicePress' == $theme->name || 'Rockers' == $theme->name || 'Content' == $theme->name || 'Certify' == $theme->name || 'Stacy' == $theme->name || 'SpicePress Child Theme' == $theme->name)
+if ('SpicePress' == $theme->name || 'Rockers' == $theme->name || 'Content' == $theme->name || 'Certify' == $theme->name || 'Stacy' == $theme->name || 'SpicePress Child Theme' == $theme->name || 'SpicePress Child' == $theme->name)
 {
 add_action( 'switch_theme', 'spicepresstheme_deactivate_message' );
 	function spicepresstheme_deactivate_message()

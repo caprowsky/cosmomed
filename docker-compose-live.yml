@@ -4,7 +4,7 @@ services:
 
   php:
     environment:
-      DH_URL: "cosmomed.localhost"
+      DH_URL: "cosmomed.org"
       DH_ENV: "live"
 
   nginx:

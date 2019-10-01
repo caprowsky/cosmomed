@@ -1,4 +1,4 @@
- .form-label-left{
+.form-label-left{
         width:150px;
     }
     .form-line{
@@ -25,5 +25,33 @@
     .form-radio-item label, .form-checkbox-item label, .form-grading-label, .form-header{
         color: Black;
     }
-   
+      .jotform-form label{
+        cursor: default;
+    }
 
+    @media (max-width: 768px){
+.jotform-form{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+    overflow: auto;
+    }
+}
+
+
+.jotform-form  input[type=radio] {
+-webkit-appearance: unset; 
+}
+
+@media screen and (max-width: 782px){
+    input[type=radio] {
+     height: 15px !important;
+    width: 10px !important;
+
+}input[type=radio]:checked:before {
+    width: 5px !important; 
+    height: 5px !important;  
+    margin: 4px !important;  
+        border-radius: 50% !important; 
+}}

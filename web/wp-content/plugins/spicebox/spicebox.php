@@ -3,7 +3,7 @@
 Plugin Name: SpiceBox
 Plugin URI:
 Description: Enhances SpiceThemes with extra functionality.
-Version: 1.1.2
+Version: 1.1.4
 Author: Spicethemes
 Author URI: https://github.com
 Text Domain: spicebox
@@ -40,7 +40,7 @@ function spiceb_activate() {
 		require_once('inc/spicepress/features/feature-service-section.php');
 		require_once('inc/spicepress/features/feature-portfolio-section.php');
 		require_once('inc/spicepress/features/feature-testimonial-section.php');
-		require_once('inc/spicepress/sections/spicepress-service-section.php');
+		require_once('inc/spicepress/sections/spicepress-features-section.php');
 		require_once('inc/spicepress/sections/spicepress-portfolio-section.php');
 		require_once('inc/spicepress/sections/spicepress-testimonail-section.php');
 		require_once('inc/spicepress/customizer.php');
@@ -226,8 +226,7 @@ endif;
 
 
 
-
-if ('SpicePress' == $theme->name || 'Rockers' == $theme->name || 'Content' == $theme->name || 'Certify' == $theme->name || 'Stacy' == $theme->name || 'SpicePress Child Theme' == $theme->name || 'SpicePress Child' == $theme->name)
+if ('SpicePress' == $theme->name || 'Rockers' == $theme->name || 'Content' == $theme->name || 'Certify' == $theme->name || 'Stacy' == $theme->name || 'SpicePress Child Theme' == $theme->name || 'SpicePress Child' == $theme->name || 'Chilly' == $theme->name)
 {
 add_action( 'switch_theme', 'spicepresstheme_deactivate_message' );
 	function spicepresstheme_deactivate_message()
@@ -239,6 +238,19 @@ add_action( 'switch_theme', 'spicepresstheme_deactivate_message' );
 	  
 	}
 }
+if ( 'Innofit' == $theme->name || 'Innofit Child' == $theme->name)
+{
+add_action( 'switch_theme', 'innofittheme_deactivate_message' );
+	function innofittheme_deactivate_message()
+	{
+	    $theme = wp_get_theme();
+	    if($theme->template!='innofit'){
+	    require_once('inc/innofit-feedback-pop-up-form.php');
+	    }
+	  
+	}
+}
+
 
 add_action( 'init', 'wpdocs_load_textdomain' );
 /**

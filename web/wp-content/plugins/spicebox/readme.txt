@@ -3,7 +3,7 @@ Contributors: spicethemes
 Tags: widget, admin, widgets
 Requires at least: 3.3+
 Tested up to: 5.2.3
-Stable tag: 1.1.2
+Stable tag: 1.1.4
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -154,3 +154,9 @@ This plugin create repeater controls in the customizer settings allowing you to 
 
 = 1.1.2 =
 1. Added SpicePress child theme name.
+
+= 1.1.3 =
+1. Added Feedback Form for innofit theme.
+
+= 1.1.4 =
+1. spicebox plugin issue with chilly theme fixed

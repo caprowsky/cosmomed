@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the WordPress - 5.2.x - Development package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2019-09-21 19:20:32+0000\n"
+"PO-Revision-Date: 2019-09-26 16:16:58+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -8269,7 +8269,7 @@ msgstr "Non è permesso de-registrare un tipo di contenuto (post type) incorpora
 #: wp-includes/post.php:362
 msgctxt "post status"
 msgid "Trash"
-msgstr "Cestino"
+msgstr "Cestina"
 
 #: wp-includes/post.php:352
 msgctxt "post status"
@@ -13360,7 +13360,7 @@ msgstr "Cerca pagine"
 
 #: wp-includes/post.php:271
 msgid "No blocks found in Trash."
-msgstr "Nessun blocco trovato nel cestino."
+msgstr "Nessun blocco presente nel cestino."
 
 #: wp-includes/ms-default-constants.php:149
 msgid "<strong>Conflicting values for the constants VHOST and SUBDOMAIN_INSTALL.</strong> The value of SUBDOMAIN_INSTALL will be assumed to be your subdomain configuration setting."

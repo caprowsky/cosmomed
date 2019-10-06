@@ -3,7 +3,7 @@ Contributors: Themeicy
 Tags: plugin, demo, home page, portfolio, projects
 Requires at least: 3.8
 Tested up to: 5.2.3
-Stable tag: 1.6.1
+Stable tag: 1.6.2
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -19,6 +19,10 @@ The Icyclub plugin features include:
 - and many other features
 
 == Changelog ==
+
+= 1.6.2 =
+
+* Update theme name.
 
 = 1.6.1 =
 

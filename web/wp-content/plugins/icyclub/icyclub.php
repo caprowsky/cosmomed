@@ -3,7 +3,7 @@
  * Plugin Name:       Icyclub
  * Plugin URI:        
  * Description:       Icyclub plugin is comptible for Themeansar theme.
- * Version:           1.6.1
+ * Version:           1.6.2
  * Author:            themeicy
  * Author URI:        https://themeicy.com
  * License:           GPL-2.0+
@@ -17,7 +17,8 @@ define( 'ICYCP_PLUGIN_DIR', plugin_dir_path( __FILE__ ) );
 
 function icycp_activate() {
 	$theme = wp_get_theme();
-	if ( ('Consultup' == $theme->name) || ('Busiup' == $theme->name) || ('Busiway' == $theme->name) || ('Consultup Child' == $theme->name) || ('Consultup Child theme of consultup' == $theme->name)){
+	if ( ('Consultup' == $theme->name) || ('Busiup' == $theme->name) || ('Busiway' == $theme->name) || ( 'Listing' == $theme->name) ||
+		('Consultup Child' == $theme->name) || ('Consultup Child theme of consultup' == $theme->name)){
 		require_once('inc/consultup/features/customizer.php');
 		require_once('inc/consultup/sections/homepage.php');
 		require_once('inc/class-alpha-color-control/class-alpha-color-control.php');
@@ -49,7 +50,7 @@ add_action( 'customize_preview_init', 'icycp_customizer_section_live_preview' );
 
 
 $theme = wp_get_theme();
-if (( 'Consultup' == $theme->name) || ( 'Busiup' == $theme->name) || ( 'Busiway' == $theme->name) || ('Consultup Child' == $theme->name) || ('Consultup Child theme of consultup' == $theme->name)){
+if (( 'Consultup' == $theme->name) || ( 'Busiup' == $theme->name) || ( 'Busiway' == $theme->name) || ( 'Listing' == $theme->name) || ('Consultup Child' == $theme->name) || ('Consultup Child theme of consultup' == $theme->name)){
 		
 	
 register_activation_hook( __FILE__, 'icycp_page_installation_function');

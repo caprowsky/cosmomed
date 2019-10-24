@@ -3,7 +3,7 @@
  * Plugin Name:       Icyclub
  * Plugin URI:        
  * Description:       Icyclub plugin is comptible for Themeansar theme.
- * Version:           1.6.2
+ * Version:           1.6.3
  * Author:            themeicy
  * Author URI:        https://themeicy.com
  * License:           GPL-2.0+

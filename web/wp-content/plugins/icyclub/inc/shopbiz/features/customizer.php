@@ -633,7 +633,6 @@ $selective_refresh = isset( $wp_customize->selective_refresh ) ? 'postMessage' :
 		$wp_customize->add_setting( 'ser_three_btn_text',array(
 		'default' => __('Read more','icyclub'),
 		'sanitize_callback' => 'icycp_shopbiz_home_page_sanitize_text',
-		'transport'         => $selective_refresh,
 		));	
 		$wp_customize->add_control( 'ser_three_btn_text',array(
 		'label'   => __('Button Text','icyclub'),
@@ -645,7 +644,6 @@ $selective_refresh = isset( $wp_customize->selective_refresh ) ? 'postMessage' :
 		$wp_customize->add_setting( 'ser_three_btn_link',array(
 		'default' => '#',
 		'sanitize_callback' => 'icycp_shopbiz_home_page_sanitize_text',
-		'transport'         => $selective_refresh,
 		));	
 		$wp_customize->add_control( 'ser_three_btn_link',array(
 		'label'   => __('Button Link','icyclub'),

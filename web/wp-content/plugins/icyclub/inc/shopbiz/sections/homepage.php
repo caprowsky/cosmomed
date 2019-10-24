@@ -217,10 +217,10 @@ if ( ! function_exists( 'icycp_shopbiz_service' ) ) :
                     <?php 
 					$ser_one_btn_link = get_theme_mod('ser_one_btn_link','#');
 					$ser_one_btn_text = get_theme_mod('ser_one_btn_text',__('Read More','#'));
-					$ser_one_btn_shopbizb = get_theme_mod('ser_one_btn_shopbizb',false);
+					$ser_one_btn_tab = get_theme_mod('ser_one_btn_tab',false);
 					if($ser_one_btn_text !='')
 					{ ?>
-					<a href="<?php echo esc_url($ser_one_btn_link); ?>" <?php if($ser_one_btn_shopbizb == true){ echo 'shopbizrget="_blank"';}?> class="btn btn-theme"><?php echo $ser_one_btn_text ; ?></a>	
+					<a href="<?php echo esc_url($ser_one_btn_link); ?>" <?php if($ser_one_btn_tab == true){ echo 'target="_blank"';}?> class="btn btn-theme"><?php echo $ser_one_btn_text ; ?></a>	
 					<?php } ?>
 					
 					
@@ -240,10 +240,10 @@ if ( ! function_exists( 'icycp_shopbiz_service' ) ) :
                     <?php 
 					$ser_two_btn_link = get_theme_mod('ser_two_btn_link','#');
 					$ser_two_btn_text = get_theme_mod('ser_two_btn_text',__('Read More','#'));
-					$ser_two_btn_shopbizb = get_theme_mod('ser_two_btn_shopbizb',false);
+					$ser_two_btn_tab = get_theme_mod('ser_two_btn_tab',false);
 					if($ser_two_btn_text !='')
 					{ ?>
-					<a href="<?php echo esc_url($ser_two_btn_link); ?>" <?php if($ser_two_btn_shopbizb == true){ echo 'shopbizrget="_blank"';}?> class="btn btn-theme"><?php echo $ser_two_btn_text ; ?></a>	
+					<a href="<?php echo esc_url($ser_two_btn_link); ?>" <?php if($ser_two_btn_tab == true){ echo 'target="_blank"';}?> class="btn btn-theme"><?php echo $ser_two_btn_text ; ?></a>	
 					<?php } ?>
 					</div>
 				</div>
@@ -260,10 +260,10 @@ if ( ! function_exists( 'icycp_shopbiz_service' ) ) :
                     <?php 
 					$ser_three_btn_link = get_theme_mod('ser_three_btn_link','#');
 					$ser_three_btn_text = get_theme_mod('ser_three_btn_text',__('Read More','#'));
-					$ser_three_btn_shopbizb = get_theme_mod('ser_three_btn_shopbizb',false);
+					$ser_three_btn_tab = get_theme_mod('ser_three_btn_tab',false);
 					if($ser_three_btn_text !='')
 					{ ?>
-					<a href="<?php echo esc_url($ser_three_btn_link); ?>" <?php if($ser_three_btn_shopbizb == true){ echo 'shopbizrget="_blank"';}?> class="btn btn-theme"><?php echo $ser_three_btn_text ; ?></a>	
+					<a href="<?php echo esc_url($ser_three_btn_link); ?>" <?php if($ser_three_btn_tab == true){ echo 'target="_blank"';}?> class="btn btn-theme"><?php echo $ser_three_btn_text ; ?></a>	
 					<?php } ?>
                 </div>
               </div>
